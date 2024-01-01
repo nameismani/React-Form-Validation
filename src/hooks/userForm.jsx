@@ -32,7 +32,14 @@ const userForm = () => {
             setSuccess(true)
             setTimeout(()=>{
                 setSuccess(false)
+                setValue({
+                    name:'',
+                    email:'',
+                    password:'',
+                    password2:''
+                   })
             },2000)
+
         }
        
        console.log(error)
