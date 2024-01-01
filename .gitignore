@@ -1,4 +1,4 @@
-# Logs
+ git config --global user.email "you@example.com" git config --global user.email "you@example.com"# Logs
 logs
 *.log
 npm-debug.log*
